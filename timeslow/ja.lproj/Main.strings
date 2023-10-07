@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "BPM"; ObjectID = "0Ho-kM-Q85"; */
+"0Ho-kM-Q85.text" = "BPM";
+
+/* Class = "UITabBarItem"; title = "訓練"; ObjectID = "3YH-Vr-Oic"; */
+"3YH-Vr-Oic.title" = "訓練";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "50a-fg-Y6b"; */
+"50a-fg-Y6b.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "通常"; ObjectID = "5kP-sT-JiH"; */
+"5kP-sT-JiH.normalTitle" = "通常";
+
+/* Class = "UIButton"; normalTitle = "裏拍"; ObjectID = "MMJ-fZ-bLy"; */
+"MMJ-fZ-bLy.normalTitle" = "裏拍";
+
+/* Class = "UILabel"; text = "60"; ObjectID = "MvY-Tl-fDc"; */
+"MvY-Tl-fDc.text" = "60";
+
+/* Class = "UILabel"; text = "60"; ObjectID = "O4J-a3-fke"; */
+"O4J-a3-fke.text" = "60";
+
+/* Class = "UILabel"; text = "BPM"; ObjectID = "RwB-tG-vFH"; */
+"RwB-tG-vFH.text" = "BPM";
+
+/* Class = "UIButton"; normalTitle = "START！"; ObjectID = "Uyk-9c-liA"; */
+"Uyk-9c-liA.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "cZ3-gD-p3w"; */
+"cZ3-gD-p3w.normalTitle" = "-";
+
+/* Class = "UIButton"; normalTitle = "-"; ObjectID = "fih-K7-ZZB"; */
+"fih-K7-ZZB.normalTitle" = "-";
+
+/* Class = "UITabBarItem"; title = "測定"; ObjectID = "iNo-O2-CL6"; */
+"iNo-O2-CL6.title" = "測定";
+
+/* Class = "UILabel"; text = "天才だ、、プロ並みのリズム感"; ObjectID = "kLw-cd-Ri9"; */
+"kLw-cd-Ri9.text" = "天才だ、、プロ並みのリズム感";
+
+/* Class = "UIButton"; normalTitle = "START！"; ObjectID = "ku7-Jl-urY"; */
+"ku7-Jl-urY.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "slx-da-Y2o"; */
+"slx-da-Y2o.normalTitle" = "+";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "tjj-ve-JKn"; */
+"tjj-ve-JKn.normalTitle" = "+";

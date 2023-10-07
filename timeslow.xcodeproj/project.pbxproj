@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D6B48472AB6CB6300DBE314 /* trainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6B48462AB6CB6300DBE314 /* trainingViewController.swift */; };
+		6D6B48492AB7355200DBE314 /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D6B48482AB7355100DBE314 /* sound2.mp3 */; };
 		6D8DFEC12AB1879300E24193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8DFEC02AB1879300E24193 /* AppDelegate.swift */; };
 		6D8DFEC32AB1879300E24193 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8DFEC22AB1879300E24193 /* SceneDelegate.swift */; };
 		6D8DFEC52AB1879300E24193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8DFEC42AB1879300E24193 /* ViewController.swift */; };
 		6D8DFEC82AB1879300E24193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8DFEC62AB1879300E24193 /* Main.storyboard */; };
 		6D8DFECA2AB1879400E24193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8DFEC92AB1879400E24193 /* Assets.xcassets */; };
 		6D8DFECD2AB1879400E24193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8DFECB2AB1879400E24193 /* LaunchScreen.storyboard */; };
+		6D8DFED52AB1957400E24193 /* hoge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8DFED42AB1957400E24193 /* hoge.swift */; };
+		6D8DFED72AB1977000E24193 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D8DFED62AB1977000E24193 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D6B48462AB6CB6300DBE314 /* trainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trainingViewController.swift; sourceTree = "<group>"; };
+		6D6B48482AB7355100DBE314 /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		6D6B484A2AB8418D00DBE314 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		6D6B484B2AB8418D00DBE314 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		6D8DFEBD2AB1879300E24193 /* timeslow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeslow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8DFEC02AB1879300E24193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D8DFEC22AB1879300E24193 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		6D8DFEC92AB1879400E24193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D8DFECC2AB1879400E24193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D8DFECE2AB1879400E24193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8DFED42AB1957400E24193 /* hoge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoge.swift; sourceTree = "<group>"; };
+		6D8DFED62AB1977000E24193 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,10 @@
 				6D8DFEC02AB1879300E24193 /* AppDelegate.swift */,
 				6D8DFEC22AB1879300E24193 /* SceneDelegate.swift */,
 				6D8DFEC42AB1879300E24193 /* ViewController.swift */,
+				6D8DFED62AB1977000E24193 /* sound.mp3 */,
+				6D6B48482AB7355100DBE314 /* sound2.mp3 */,
+				6D8DFED42AB1957400E24193 /* hoge.swift */,
+				6D6B48462AB6CB6300DBE314 /* trainingViewController.swift */,
 				6D8DFEC62AB1879300E24193 /* Main.storyboard */,
 				6D8DFEC92AB1879400E24193 /* Assets.xcassets */,
 				6D8DFECB2AB1879400E24193 /* LaunchScreen.storyboard */,
@@ -104,11 +118,11 @@
 			};
 			buildConfigurationList = 6D8DFEB82AB1879300E24193 /* Build configuration list for PBXProject "timeslow" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ja,
 			);
 			mainGroup = 6D8DFEB42AB1879300E24193;
 			productRefGroup = 6D8DFEBE2AB1879300E24193 /* Products */;
@@ -128,6 +142,8 @@
 				6D8DFECD2AB1879400E24193 /* LaunchScreen.storyboard in Resources */,
 				6D8DFECA2AB1879400E24193 /* Assets.xcassets in Resources */,
 				6D8DFEC82AB1879300E24193 /* Main.storyboard in Resources */,
+				6D6B48492AB7355200DBE314 /* sound2.mp3 in Resources */,
+				6D8DFED72AB1977000E24193 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D8DFED52AB1957400E24193 /* hoge.swift in Sources */,
 				6D8DFEC52AB1879300E24193 /* ViewController.swift in Sources */,
 				6D8DFEC12AB1879300E24193 /* AppDelegate.swift in Sources */,
+				6D6B48472AB6CB6300DBE314 /* trainingViewController.swift in Sources */,
 				6D8DFEC32AB1879300E24193 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +169,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D8DFEC72AB1879300E24193 /* Base */,
+				6D6B484A2AB8418D00DBE314 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +178,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6D8DFECC2AB1879400E24193 /* Base */,
+				6D6B484B2AB8418D00DBE314 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -216,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,25 +308,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = 575Q53PY3T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = timeslow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "リズム感";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.masaki.matsushita.timeslow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,25 +341,30 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = 575Q53PY3T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = timeslow/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "リズム感";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.masaki.matsushita.timeslow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
